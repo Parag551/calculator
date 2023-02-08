@@ -77,8 +77,5 @@ f14.grid(pady=5, column=3, row=7)
 
 f15= Button(p, text="/", width="10", command=lambda :myclick('/'))
 f15.grid(pady=5, column=2, row=8)
-# b = Frame(master=root,background="pink" )
-# b.grid( side=LEFT, fill=BOTH, expand=True,)
-# d= Label(b , text="kolija" , fg="red" , bg="pink", relief=SUNKEN)
-# d.pack(pady=50, )
+
 root.mainloop()
